@@ -24,7 +24,7 @@ function addAnimalButton(animal) {
     }    
 }
 
-const GIPHY_API_SEARCH = "http://api.giphy.com/v1/gifs/search?";
+const GIPHY_API_SEARCH = "https://api.giphy.com/v1/gifs/search?";
 
 function fetchAnimal(search, size) {
     console.log("fetching " + search);
